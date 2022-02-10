@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.server-container {
+    margin: auto;
+    background-color: aqua;
+    padding: 20px;
+    width: 40%;
+    border: 5px solid black;
+}
+
+.server-container:hover {
+    background-color: #fff;
+}
+
+p {
+    background-color: blue;
+    color: black;
+    padding: 10px;
+}
+
+.server-container button {
+    background-color: green;
+    color: black;
+    padding: 5px;
+    border-radius: 12px;
+}
